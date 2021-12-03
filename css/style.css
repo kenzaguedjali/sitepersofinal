@@ -1,0 +1,244 @@
+@import url(components/ui_1.css);
+@import url(components/ui_2.css);
+@import url(components/ui_5.css);
+@import url(components/ui_6.css);
+@import url(components/ui_7.css);
+
+
+
+h1 {
+	font-family:  'Bebas Neue', sans-serif;
+	font-size: 25px;
+	color:  lightpink;
+		text-align: center;
+	}
+
+h2 { 
+		font-family: 'Bebas Neue', sans-serif;
+	font-size: 20px;
+	color: #FF3399;
+	border: 2px white;
+	margin-left:  15px;
+	padding-top: 20px;
+	text-align: center;
+	}
+
+	.ui_1_container {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  margin:10px;
+  border-radius: 20px;
+}
+
+.ui_1_container img {
+  height: 100%;
+  width: 120px;
+  object-fit: center;
+}
+
+.ui_1_container h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  opacity: .7;
+  font-size: 30px;
+}
+
+.ui_1_container p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .20;
+  margin-bottom: 0;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.ui_1_container .ui_1_box {
+  padding: 16px;
+}
+
+	
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+	.coordonnees {
+		color:  lightpink;
+		}
+
+		.rs { 
+			color: lightpink;
+			}
+
+			img { 
+				width: 230px;
+				border-radius:  115px;
+				}
+
+				.img-circle { 
+  				border-radius: 50%;
+				}
+
+			
+
+
+			@media (max-device-width:  540px) {
+			/* For a screen < 540px, this CSS will be read */
+			.sect_1, .real {
+				display:block;
+				}
+				.xl {
+					font-size:  1.2em;
+					padding:  10px;
+				}
+
+				
+
+}
+
+.card_profile {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title_profile {
+  color: lightpink;
+  font-size: 18px;
+}
+
+.card_profile button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card_profile a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.card_profile button:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+.cards_multiple {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  padding: 1em;
+}
+
+/* Smallest device*/
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards_multiple {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .cards_multiple {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .cards_multiple {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .cards_multiple {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .cards_multiple {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.card_category_multiple {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+ui6
+
+.skillsbar_box{
+  padding:20px;
+
+}
+.container_skillsbar {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  font-family:  'Bebas Neue', sans-serif;
+	font-size: 20px;
+	color: #FF3399;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+
+  width: 90%;
+  background-color: lightpink;
+  opacity: .5;
+}
+
+.css {
+  width: 80%;
+  background-color: lightpink;
+    opacity: .5;
+}
+
+
+.js {
+  width: 65%;
+  background-color: lightpink;
+    opacity: .5;
+}
+
+
+.php {
+  width: 60%;
+  background-color: lightpink;
+    opacity: .5;
+}
